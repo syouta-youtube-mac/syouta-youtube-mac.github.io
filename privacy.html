@@ -1,19 +1,48 @@
 <!doctype html>
-<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy Policy - syouta-youtube</title></head>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Privacy Policy - Syouta Auto Uploader</title></head>
 <body style="font-family:sans-serif;max-width:720px;margin:40px auto;padding:0 16px;line-height:1.7">
-<h1>プライバシーポリシー</h1>
-<p>syouta-youtube は、運営者本人のYouTubeチャンネルに、本人が作成した動画をアップロードするためだけに使う個人用ツールです。</p>
+<h1>Privacy Policy</h1>
+<p>Last updated: 2026-10-29</p>
+
+<h2>1. About this tool</h2>
+<p>Syouta Auto Uploader is a personal, internal-only tool used only by its owner to upload videos the owner creates
+to the owner's own YouTube channels. No one else signs in or uses it.</p>
+
+<h2>2. Use of YouTube API Services</h2>
+<p>This tool uses the <strong>YouTube API Services</strong>. By using this tool, users agree to be bound by the
+<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.
+Google's privacy practices apply to data handled through YouTube API Services; see the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a> (http://www.google.com/policies/privacy).</p>
+
+<h2>3. What data is accessed, and why</h2>
 <ul>
-<li>利用するGoogleのデータは、運営者本人のYouTubeチャンネルへの動画のアップロードと、チャンネル名の確認に必要な範囲だけです。</li>
-<li>運営者以外の人のデータを集めたり、保存したり、第三者に渡したりすることはありません。</li>
-<li>認証情報は運営者本人の端末と、本人だけが使う実行環境にのみ保存します。</li>
+<li>OAuth access to the owner's own YouTube channels (scopes: youtube.upload, youtube.readonly).</li>
+<li>Used only to upload the owner's videos and thumbnails, and to read the owner's channel name and the time of the latest upload.</li>
+<li>No data of any other user is accessed, collected, stored, or shared.</li>
 </ul>
-<h2>Privacy Policy</h2>
-<p>syouta-youtube is a personal tool used only to upload videos created by the owner to the owner's own YouTube channels.</p>
+
+<h2>4. Storage and sharing</h2>
 <ul>
-<li>It accesses Google data only as needed to upload videos to the owner's own YouTube channels and to read the channel name.</li>
-<li>It does not collect, store, or share data from anyone other than the owner.</li>
-<li>Credentials are stored only on the owner's own device and in an execution environment used only by the owner.</li>
+<li>OAuth refresh tokens are stored only in the owner's macOS Keychain and in a private execution environment used only by the owner.</li>
+<li>No data is sold or shared with third parties. No cookies or tracking are used by this tool.</li>
 </ul>
-<p>Last updated: 2026-10-27</p>
+
+<h2>5. Deletion and revoking access</h2>
+<ul>
+<li>Access can be revoked at any time from the Google security settings page:
+<a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>.</li>
+<li>When access is revoked or the tool is no longer used, the stored tokens are deleted from the Keychain and the execution environment. Any API data the tool keeps (upload records) is deleted within 30 days.</li>
+</ul>
+
+<h2>6. Contact</h2>
+<p>Questions: via the GitHub profile of the owner, <a href="https://github.com/syouta-youtube-mac">syouta-youtube-mac</a>.</p>
+
+<hr>
+<h1>プライバシーポリシー（日本語）</h1>
+<p>Syouta Auto Uploader は、運営者本人のYouTubeチャンネルに、本人が作った動画をアップロードするためだけの個人用ツールです。本ツールは YouTube API サービスを利用しており、利用者は <a href="https://www.youtube.com/t/terms">YouTube 利用規約</a> に同意したものとみなされます。データの扱いには <a href="https://policies.google.com/privacy">Google プライバシー ポリシー</a> が適用されます。</p>
+<ul>
+<li>使うのは本人のチャンネルへの動画・サムネイルのアップロードと、チャンネル名・最新投稿日時の確認だけです。他人のデータは扱いません。</li>
+<li>認証情報は本人のMacのキーチェーンと、本人専用の実行環境にのみ保存し、第三者に渡しません。</li>
+<li>許可は <a href="https://security.google.com/settings/security/permissions">Googleのセキュリティ設定</a> からいつでも取り消せます。取り消した場合や使わなくなった場合は、保存した認証情報を削除し、記録も30日以内に削除します。</li>
+</ul>
 </body></html>
